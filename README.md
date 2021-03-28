@@ -5,7 +5,7 @@
 |   --------------  |   ----   | -------- |
 |    IIB2019034  |   Sanket Kokude | Sanket-Kokude | 
 |    IIB2019035  |   Harshit Kumar | stargazer612 |
-|    IIB2019036  |   Viful Nirala |  |
+|    IIB2019036  |   Viful Nirala | Artemis |
 
 **Group No-**"12"
 
@@ -15,13 +15,13 @@
 
 ---
 ## Problem Statement
-Given an n x n matrix, where every row and column is sorted in increasing order. Given a key, how to decide whether this key is in the matrix. Solve using divide and conquer algorithm.
+Given an array arr[] of n numbers and a number K, find the number of subsets of arr[] having XOR of elements as K. Solve using Dynamic programming
 
 ---
 ## How to use code
 ```
 #Download project
-git clone https://github.com/stargazer612/daa
+git clone https://github.com/stargazer612/daa2
 ```
 ---
 
