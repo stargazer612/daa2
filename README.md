@@ -15,7 +15,7 @@
 
 ---
 ## Problem Statement
-Given an n x n matrix, where every row and column is sorted in increasing order. Given a key, how to decide whether this key is in the matrix. Solve using divide and conquer algorithm.
+Given an array arr[] of n numbers and a number K, find the number of subsets of arr[] having XOR of elements as K. Solve using Dynamic programming.
 
 ---
 ## How to use code
@@ -27,7 +27,7 @@ git@github.com:stargazer612/daa2.git
 
 Run the code
 ```
-g++ main.cpp
+g++ daa2.cpp
 ```
 ---
 
