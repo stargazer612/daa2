@@ -34,7 +34,7 @@ g++ main.cpp
 **Test case**
 
 Given array:   
-6 5 2 3 4 
+6 5 2 3 4  
 Find number of subsets for XOR :
 4
 ---
