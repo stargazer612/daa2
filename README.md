@@ -5,7 +5,7 @@
 |   --------------  |   ----   | -------- |
 |    IIB2019034  |   Sanket Kokude | Sanket-Kokude | 
 |    IIB2019035  |   Harshit Kumar | stargazer612 |
-|    IIB2019036  |   Viful Nirala | Artemis |
+|    IIB2019036  |   Viful Nirala |  |
 
 **Group No-**"12"
 
@@ -15,51 +15,38 @@
 
 ---
 ## Problem Statement
-Given an array arr[] of n numbers and a number K, find the number of subsets of arr[] having XOR of elements as K. Solve using Dynamic programming
+Given an n x n matrix, where every row and column is sorted in increasing order. Given a key, how to decide whether this key is in the matrix. Solve using divide and conquer algorithm.
 
 ---
 ## How to use code
 ```
 #Download project
-git clone https://github.com/stargazer612/daa2
+git@github.com:stargazer612/daa2.git
 ```
 ---
 
 Run the code
 ```
-g++ daa2.cpp
+g++ main.cpp
 ```
 ---
 
 **Test case**
 
-Given mat:   
-1 2 3 4 5 6 7 8 9 10  
-11 12 13 14 15 16 17 18 19 20   
-21 22 23 24 25 26 27 28 29 30   
-31 32 33 34 35 36 37 38 39 40   
-41 42 43 44 45 46 47 48 49 50   
-51 52 53 54 55 56 57 58 59 60   
-61 62 63 64 65 66 67 68 69 70   
-71 72 73 74 75 76 77 78 79 80   
-81 82 83 84 85 86 87 88 89 90   
-91 92 93 94 95 96 97 98 99 100  
+Given array:   
+6 5 2 3 4 
 
-Find Key:
-```
-Test Case-1
-Input:79
-Output:79 Found at (7,8)
-#--------------------------#
-Test Case-2
-Input:102
-Output:102 Not Found
-```
-
+Find number of subsets for XOR :
+4
 ---
 
 ### Theory
-A divide-and-conquer algorithm recursively breaks down a problem into two or more sub-problems of the same or related type, until these become simple enough to be solved directly. The solutions to the sub-problems are then combined to give a solution to the original problem.
+Dynamic  Programming  (DP)  is  an  algorithmic  technique  for
+solving  an  optimization  problem  by  breaking  it  down  into
+simpler  subproblems  and  utilizing  the  fact  that  the  optimal
+solution  to  the  overall  problem  depends  upon  the  optimal
+solution to its subproblems.
+
 
 ---
 
